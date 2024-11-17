@@ -1,33 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+   body {
+      @apply font-inter bg-[#19243B];
+   }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@layer components {
+   .card {
+      @apply relative h-full min-h-[290px] max-w-full rounded-2xl bg-[#293A4E] p-5 text-white;
+   }
+   .feature-name {
+      @apply text-sm font-medium text-[#7887A2] lg:text-base;
+   }
+   .feature-main {
+      @apply absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 flex-col items-center space-y-2;
+      .feature-name {
+         @apply text-[#92B6F5];
+      }
+   }
+   .feature-title {
+      @apply text-2xl font-bold text-white lg:text-[28px];
+   }
 }

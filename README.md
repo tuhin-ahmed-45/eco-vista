@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Eco Vista 🌤️
 
-## Getting Started
+**Eco Vista** is a modern and visually appealing weather dashboard application. This app provides users with real-time weather updates, air quality index (AQI) information, wind speed, and temperature details, all displayed in an engaging and user-friendly layout.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-  **Real-Time Weather Updates**: Get current weather conditions for your selected location.
+-  **Air Quality Index (AQI)**: Monitor the air quality to make informed outdoor activity decisions.
+-  **Wind Speed**: View detailed wind speed data to plan your day effectively.
+-  **Temperature Display**: Check current temperatures in an intuitive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Highlights
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-  **Dynamic Background**: A responsive and immersive background image enhances the visual experience.
+-  **Overlay Effect**: Semi-transparent overlay ensures text and elements remain readable against the background.
+-  **Grid Layout**: A modern grid-based design ensures seamless responsiveness on all devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Technologies Used
 
-## Learn More
+-  **Next.js**: A powerful React framework for server-rendered and static web applications.
+-  **TailwindCSS**: A utility-first CSS framework for rapid and custom design.
+-  **Google Fonts**: Utilizes the `Inter` font for a clean and readable typography.
+-  **Next/Image**: Optimized image handling for better performance.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 How to Use
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tuhin-ahmed-45/eco-vista.git
+   ```
